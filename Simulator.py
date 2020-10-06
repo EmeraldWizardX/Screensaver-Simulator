@@ -39,7 +39,7 @@ def main():
     icon = pygame.transform.scale(Icon, (100, 100))
     # Initialize Music
     mixer.init()
-    mixer.music.load('Kevin MacLeod Winner Winner!.wav')
+    mixer.music.load('Kevin MacLeod 8bit Dungeon Boss.mp3')
     mixer.music.play(-1)
     pygame.init()
     clock = pygame.time.Clock()
